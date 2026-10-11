@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 64ef348cc7dd543ff894a0cdef262e7e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 387432
+  packageName: Number Forge - Ultimate large-number solution
+  packageVersion: 1.0
+  assetPath: Assets/ScriptGoblin/NumberForge/Runtime/Formatting/BigNumberNames.cs
+  uploadId: 936222

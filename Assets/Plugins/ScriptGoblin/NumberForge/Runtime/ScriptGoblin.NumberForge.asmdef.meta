@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b9450e74ff6e04cf9a14cba432d2cea1
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 387432
+  packageName: Number Forge - Ultimate large-number solution
+  packageVersion: 1.0
+  assetPath: Assets/ScriptGoblin/NumberForge/Runtime/ScriptGoblin.NumberForge.asmdef
+  uploadId: 936222

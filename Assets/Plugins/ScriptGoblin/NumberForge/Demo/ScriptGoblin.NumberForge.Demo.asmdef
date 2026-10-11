@@ -1,0 +1,16 @@
+{
+    "name": "ScriptGoblin.NumberForge.Demo",
+    "rootNamespace": "ScriptGoblin.NumberForge.Demo",
+    "references": [
+        "ScriptGoblin.NumberForge"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

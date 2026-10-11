@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e3d0e9e7b18314b71b6e943159025073
+AssetOrigin:
+  serializedVersion: 1
+  productId: 387432
+  packageName: Number Forge - Ultimate large-number solution
+  packageVersion: 1.0
+  assetPath: Assets/ScriptGoblin/NumberForge/Runtime/Formatting/IBigNumberFormatter.cs
+  uploadId: 936222

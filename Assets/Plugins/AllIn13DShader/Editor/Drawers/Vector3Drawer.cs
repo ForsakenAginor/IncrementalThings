@@ -7,7 +7,7 @@ namespace AllIn13DShader
     {
         public override void OnGUI(Rect position, MaterialProperty prop, string label, MaterialEditor editor)
         {
-            if(prop.type != MaterialProperty.PropType.Vector) {
+            if(prop.propertyType != UnityEngine.Rendering.ShaderPropertyType.Vector) {
                 EditorGUI.LabelField(position, label, "Vector3Drawer only works with Vector properties.");
                 return;
             }

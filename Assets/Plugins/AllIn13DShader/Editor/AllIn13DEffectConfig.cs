@@ -231,19 +231,19 @@ namespace AllIn13DShader
 			}
 
 			int propertyIndex = shader.FindPropertyIndex(targetProperty.name);
-			if (targetProperty.type == MaterialProperty.PropType.Float || targetProperty.type == MaterialProperty.PropType.Range)
+			if (targetProperty.propertyType == ShaderPropertyType.Float || targetProperty.propertyType == ShaderPropertyType.Range)
 			{
 				targetProperty.floatValue = references.materialWithDefaultValues.GetFloat(targetProperty.name);
 			}
-			else if (targetProperty.type == MaterialProperty.PropType.Vector)
+			else if (targetProperty.propertyType == ShaderPropertyType.Vector)
 			{
 				targetProperty.vectorValue = references.materialWithDefaultValues.GetVector(targetProperty.name);
 			}
-			else if (targetProperty.type == MaterialProperty.PropType.Color)
+			else if (targetProperty.propertyType == ShaderPropertyType.Color)
 			{
 				targetProperty.colorValue = references.materialWithDefaultValues.GetColor(targetProperty.name);
 			}
-			else if (targetProperty.type == MaterialProperty.PropType.Texture)
+			else if (targetProperty.propertyType == ShaderPropertyType.Texture)
 			{
 				targetProperty.textureValue = references.materialWithDefaultValues.GetTexture(targetProperty.name);
 			}
